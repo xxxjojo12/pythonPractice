@@ -22,6 +22,9 @@ print(1 in dictionary1)  #True '1'은 False
 print(dictionary1[1])    #[]안에 있는거 뽑기
 print(dictionary1.get(1)) #위랑 똑같음
 
+
+
+
 print(dictionary1.keys()) #dictionary안에 키값들 다 뽑기
 print(dictionary1.values())  #dictionary안에 밸류 다 뽑기
 
