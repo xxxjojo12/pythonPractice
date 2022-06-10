@@ -8,5 +8,5 @@ class Solution:
         D = 500
         M = 1000
 
-        for i in range(len(s)):
+        for i in range():
             
