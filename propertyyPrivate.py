@@ -23,4 +23,4 @@ print(d2.name)
 d1.name = 'd'
 
 print(d1.name)
-print(d1._Duck__name)
+print(d1._Duck__name)5555
