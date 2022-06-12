@@ -12,9 +12,10 @@ class C():
     def __init__(self, a, b):
         self.a = a
         self.b = b
-    
+
     def about(self):
-        print(a.des, "  ", b.des)
+        print(a.des, "", b.des)
+
 
 a = A('aaaaaaa')
 b = B('bbbbbbb')

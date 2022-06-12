@@ -15,8 +15,8 @@ class Duck():
     # name = property(get_name, set_name)
 
 
-duck1 = Duck('H')
+duck1 = Duck('Hail')
 print(duck1.name)
 
-duck1.name = 'g'
+duck1.name = 'Sujin'
 print(duck1.name)
