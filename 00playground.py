@@ -61,5 +61,22 @@ print(chr(97))
 print('--------------------------------------')
 
 # global and local
-a = 1
-b = 2
+a = [1, 2, 3]
+def temp():
+    a = [4, 5, 6]
+temp()
+print(a)
+
+def temp1():
+    global a
+    a = [4, 5, 7]
+temp1()
+print(a)
+
+def templocal():
+    a = 3
+    print(locals())
+templocal()
+
+print('--------------------------------------')
+
